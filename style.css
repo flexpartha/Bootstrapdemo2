@@ -1,0 +1,151 @@
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
+.navbar-custom{
+    background: #282e3e;
+    color: #fff;
+    border-radius: 0px;
+    padding: 10px;
+    margin-bottom: 15% !important;
+}
+
+.navbar-custom .navbar-nav li a{
+    color: #fff;
+    font-size: 19px;
+    margin-left: 13px;
+}
+
+.navbar-custom .navbar-nav>.active a{
+    color: #fff;
+    background: #82c434;
+}
+
+.navbar-custom .navbar-nav li a:hover{
+    background: #82c434;
+    color: #fff;
+}
+
+.navbar-custom .navbar-brand{
+    color: #fff;
+    font-size: 27px;
+    margin-left: 15px;
+}
+
+.navbar-custom .navbar-brand:hover{
+    color: #fff;
+    font-size: 27px;
+}
+/* create slider */
+
+.slider{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.carousel-caption{
+    color: #fff;
+    position: absolute;
+    top: 35%;
+    left: -20px;
+}
+.carousel-caption b{
+    font-size: 40px;
+    font-weight: bold;
+    border-bottom-style: ridge;
+    border-bottom-color: #82c434;
+}
+
+/* services */
+#Services{
+    font-size: 45px;
+    font-weight: bold;
+    border-bottom-style: ridge;
+    border-bottom-color: #82c434;
+}
+.col1{
+    border: 1px solid #999999;
+    min-height: 350px;
+    margin-bottom: 3px;
+}
+
+.icons{
+    width: 130px;
+    font-size: 60px;
+    background: #d9d9d9;
+    padding: 5px 10px;
+    color: #82c434;
+    margin-top: -50px;
+}
+.btn-primary{
+    background: #82c434;
+    border-radius: 0px;
+    border-color:#82c434;
+}
+.btn-primary:hover{
+    background: #82c434;
+    border-radius: 0px;
+    border-color:#82c434;
+}
+.btn-primary:active{
+    background: #82c434;
+    border-radius: 0px;
+    border-color:#82c434;
+}
+/* about */
+#about{
+    width: 100%;
+    min-height: 600px;
+    background: #282e3e;
+    margin-top: 50px;
+}
+#aboutcompany{
+    color: #fff;
+    font-size: 45px;
+    font-weight: bold;
+    border-bottom-style: ridge;
+    border-bottom-color: #82c434;
+}
+.percentCount{
+    color: #fff;
+}
+
+#team{
+    position: relative;
+    top: 40px;
+}
+#ourTeam{
+    font-size: 45px;
+    font-weight: bold;
+    border-bottom-style: ridge;
+    border-bottom-color: #82c434;
+}
+.team-member{
+    text-align: center;
+    margin-top: 50px;
+}
+.icon i{
+    font-size: 18px;
+    height: 35px;
+    width: 35px;
+    background: #98e698;
+    padding: 8px;
+    border-radius: 50%;
+}
+.icon i:hover{
+    background: #46d246;
+}
+
+footer{
+    width: 100%;
+    min-height: 400px;
+    background: #282e3e;
+    position: relative;
+    top: 150px;
+    padding-bottom: 12px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+    background: #282e3e;
+}
